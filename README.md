@@ -1,65 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ruby: Morse Message Decoder
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> A simple app to decode the Morse Messages runs in a command line.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Major languages: Ruby
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+You need to have a Ruby installed in your local machine 
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To setup the Morse Message Decoder project in your local, in the repo page: 
+- click on code (dropdown list) > Download as ZIP. 
+- or open terminal of path you want to install project and run this command:
+`git clone git@github.com:Amrhub/decode-morse-mesasge.git`
 
 ## Authors
 
-👤 **Author1**
+👤 **Amr Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Amrhub](https://github.com/amrhub)
+- LinkedIn: [Amr Ahmed](https://linkedin.com/in/amr-abdelrehim-ahmed)
 
-👤 **Author2**
+👤 **Umidjon Ustabaev**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Hope1226](https://github.com/Hope1226)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/umidjon-ustabaev/)
+
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Amrhub/decode-morse-mesasge/issues).
 
 ## Show your support
 
