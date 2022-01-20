@@ -45,8 +45,14 @@ class DecodeMorseMessage
   def decode_char(char)
     @morse_dict.each { |key, value| return key if value == char }
   end
+
+  def decode_word(morse_w)
+    char_arr = morse_w.split(' ')
+    return char_arr.map { |char| decode_char(char)}.join('')
+  end
 end
 
 DecodeMorse = DecodeMorseMessage.new(morse_dict)
 
 puts DecodeMorse.decode_char('-...')
+puts DecodeMorse.decode_word('-- -.--')
