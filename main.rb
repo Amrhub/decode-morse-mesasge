@@ -37,22 +37,27 @@ morse_dict = {
   '0' => '-----'
 }
 
-class DecodeMorseMessage
-  def initialize(morse_dict)
-    @morse_dict = morse_dict
+class DecodeMessage
+  def initialize(decoder_dict, message)
+    @decoder_dict = decoder_dict
+    decode_message(message)
   end
 
   def decode_char(char)
-    @morse_dict.each { |key, value| return key if value == char }
+    @decoder_dict.each { |key, value| return key if value == char }
   end
 
   def decode_word(morse_w)
-    char_arr = morse_w.split(' ')
-    return char_arr.map { |char| decode_char(char)}.join('')
+    char_arr = morse_w.split
+    char_arr.map { |char| decode_char(char) }.join
+  end
+
+  def decode_message(message)
+    words_temp = message.split(' / ').join('   ')
+    words_arr = words_temp.split('   ')
+    puts words_arr.map { |word| decode_word(word) }.join(' ')
   end
 end
 
-DecodeMorse = DecodeMorseMessage.new(morse_dict)
-
-puts DecodeMorse.decode_char('-...')
-puts DecodeMorse.decode_word('-- -.--')
+DecodeMorse = DecodeMessage.new(morse_dict,
+                                '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
